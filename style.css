@@ -1,0 +1,77 @@
+#navbar {
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 50px;
+    grid-template-rows: 50px;
+    grid-template-areas:
+    "about store . images sign-in";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#about {
+grid-area: about;
+}
+#store {
+grid-area: store;
+}
+#images {
+grid-area: images;
+}
+#sign-in {
+grid-area: sign-in;
+}
+
+#google-search {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 70px 70px 250px;
+    grid-template-areas: 
+    ". logo ."
+    ". search-bar ."
+    ". flexbox .";
+    align-items: center;
+
+}
+
+
+
+#logo {
+    grid-area: logo;
+justify-self: center;
+align-self: flex-end;
+}
+
+#search-bar {
+    grid-area: search-bar;
+}
+
+ #flexbox {
+     display: flexbox;
+     grid-area: flexbox;
+     justify-self: center;
+ }
+
+#search-button {
+ 
+}
+
+#lucky-button {
+    
+}
+
+#footer {
+    position: fixed;
+    top: 815px;
+    left: 790px;
+    }
+
+#lol {
+    grid-area: lol;
+}
+
+#idk {
+    grid-area: idk;
+}
