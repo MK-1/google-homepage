@@ -1,0 +1,1 @@
+    The goal of this project is to recreate the Google homepage visually (not functionally), ignoring finer details such as hover-highlighting and form submission. It will demonstrate the HTML and CSS skills I have been learning.
